@@ -16,5 +16,16 @@ match num:
         b=eval(input("enter second num : "))
         c=a-b
         print("sub = ",c) 
+    case 3:
+        a=eval(input("enter frist num : "))
+        b=eval(input("enter second num : "))
+        c=a*b
+        print("mul = ",c) 
+    case 4:
+        a=eval(input("enter frist num : "))
+        b=eval(input("enter second num : "))
+        c=a/b
+        print("div = ",c)     
+
     case _:
         print("please press 1 to 4")       
