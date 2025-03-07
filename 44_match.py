@@ -1,5 +1,5 @@
 #print state name acording to state short form.
-state=input("enter short state name : ")
+state=input("enter short state name : ")#op
 match state:
     case "mp" :
         print("madhya pradesh")

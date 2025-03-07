@@ -4,7 +4,8 @@ b=56.78
 c="chetan"
 d="P"
 ans=a+b
-print("integer value of a = {}".format(a))
+s="integer value of a = {}"
+print(s.format(a))
 print("float value of b = {}".format(b))
 print("string value of c = {}".format(c))
 print("charcter value  of d = {}".format(d))

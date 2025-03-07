@@ -1,6 +1,6 @@
 #match case example
 #wap to print day name according to number
-day=int(input("enter a num:"))
+day=int(input("enter a num:"))#5
 match day:
     case 1:
         print("monday")

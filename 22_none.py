@@ -1,6 +1,7 @@
 def fun():
     a=12
     b=6
-   
-
-print(fun());    
+    return 67
+a=fun();    
+print(a)
+print(type(a))

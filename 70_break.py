@@ -1,12 +1,12 @@
 #use of break stmnt
 num=int(input("enter a table : "))# 6
-search=int(input("enter a num: "))# 76
-found=False
+search=int(input("enter a num: "))# 36
+is_found=False
 for i in range(1,11):
     if search== num*i:
-        found=True
+        is_found=True
         break
-if found:
+if is_found:
     print("num is found")    
 else :
     print("num is not found")      
