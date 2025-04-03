@@ -36,6 +36,5 @@ if p==2:
 else :
     c=(num//100)*100
     m = ((num//10)%10)*10 if (num%100) not in number else (num%100)
-    print(m)
     l=num%10
     print(number[num]) if num in number else print(f"{number[c]} ", number[m] if m in number and ('0' not in str(m)) else f"{number[m]} {number[l]}" )  
