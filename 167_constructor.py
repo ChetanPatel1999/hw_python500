@@ -1,5 +1,6 @@
+#Constructor with Default Values 
 class Student:
-    def __init__(self,name,rno,per):  #parameterized constructor
+    def __init__(self,name,rno,per=40): 
         self.name=name
         self.rno=rno
         self.per=per
@@ -15,9 +16,9 @@ class Student:
         print("------------------------------") 
        
 
-s1=Student("ram",101,78)
-s2=Student("shyam",102,23)
-s3=Student("hariom",103,50)
+s1=Student("ram1",101)
+s2=Student("ram2",102,45)
+s3=Student("ram3",103,77)
 s1.displayResult()
 s2.displayResult()
 s3.displayResult()

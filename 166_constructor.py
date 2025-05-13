@@ -1,8 +1,8 @@
 class Student:
-    def __init__(self,name,rno,per):  #parameterized constructor
-        self.name=name
-        self.rno=rno
-        self.per=per
+    def __init__(self):  #non - parameterized constructor
+        self.name="chetan"
+        self.rno=101
+        self.per=78.90
     def displayResult(self):
         print("Student Result ..... ")
         print(f"Student Name : {self.name}")    
@@ -15,9 +15,9 @@ class Student:
         print("------------------------------") 
        
 
-s1=Student("ram",101,78)
-s2=Student("shyam",102,23)
-s3=Student("hariom",103,50)
+s1=Student()
+s2=Student()
+s3=Student()
 s1.displayResult()
 s2.displayResult()
 s3.displayResult()
